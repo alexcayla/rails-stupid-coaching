@@ -1,0 +1,25 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$border: 0px !important;
+
+.question-card {
+  padding: 10px;
+  // border-left: 2px solid #c7c8c9 !important;
+  border-top: $border;
+  border-right: $border;
+  border-bottom: $border;
+  border-left: 4px solid grey !important;
+  border-radius: 0 !important;
+}
+
+.coach-answer {
+  padding: 10px;
+  background: #fffee1;
+  border-top: $border;
+  border-right: $border;
+  border-bottom: $border;
+  border-left: 4px solid grey !important;
+  border-radius: 0 !important;
+}
